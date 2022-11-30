@@ -111,6 +111,7 @@ h5 {font-size: 1.5rem;}
 
 small, .text_small {font-size: 0.667rem;}
 /* END GLOBAL TYPO*/
+
 .logo {
   width: 8em;
 }
@@ -118,8 +119,9 @@ nav img {
   width: 2em;
 }
 .hero {
-  background-image: url("/assets/MicrosoftTeams-image.png");
-  background-size: cover;
+  background-image: url("/assets/chili-pepper.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
   height: 90vh;
   width: 100%;
 }
