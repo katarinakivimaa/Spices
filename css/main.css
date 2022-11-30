@@ -112,16 +112,34 @@ h5 {font-size: 1.5rem;}
 small, .text_small {font-size: 0.667rem;}
 /* END GLOBAL TYPO*/
 
+/* Global Styles */
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+/*END Global Styles */
+
+header, nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .logo {
   width: 8em;
 }
 nav img {
   width: 2em;
+  margin-left: 1em;
 }
 .hero {
-  background-image: url("/assets/chili-pepper.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 90vh;
-  width: 100%;
+  position: relative;
+}
+.hero-cta {
+  max-width: 600px;
+}
+.hero-spice {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
