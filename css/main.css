@@ -110,4 +110,16 @@ h4 {font-size: 2.25rem;}
 h5 {font-size: 1.5rem;}
 
 small, .text_small {font-size: 0.667rem;}
-/* GLOBAL TYPO*/
+/* END GLOBAL TYPO*/
+.logo {
+  width: 8em;
+}
+nav img {
+  width: 2em;
+}
+.hero {
+  background-image: url("/assets/MicrosoftTeams-image.png");
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
